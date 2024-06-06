@@ -1,0 +1,42 @@
+/*style*/
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar {
+  background: #145a32;
+  color: #fff;
+}
+
+.collapse li.nav-item {
+  align-items: center;
+  font-weight: bold;
+  margin-left: 1em;
+}
+
+.navbar-brand {
+  font-size: 2em;
+  font-weight: bold;
+  font-style: italic;
+  color: #fff;
+  align-items: center;
+  margin-right: 2em;
+}
+
+.navbar-nav .nav-item .nav-link {
+  color: #fff;
+}
+
+.row .py-5 {
+  margin-top: 5em;
+}
+
+nav.container.collapse navbar-collapse ul li a {
+  color: #fff;
+}
+
+.jumbotron {
+  margin-top: 5em;
+  background: #e5e7e9;
+}
