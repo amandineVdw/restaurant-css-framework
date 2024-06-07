@@ -75,3 +75,11 @@ nav.container.collapse navbar-collapse ul li a {
   background-color: #145a32;
   justify-content: center;
 }
+
+.gallery-item img {
+  transition: transform 0.3s ease;
+}
+
+.gallery-item img:hover {
+  transform: scale(1.05);
+}
