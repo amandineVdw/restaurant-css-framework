@@ -1,5 +1,11 @@
 /*style*/
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -41,3 +47,31 @@ nav.container.collapse navbar-collapse ul li a {
   background: #e5e7e9;
 }
 
+.card.mt-2
+  div.row.py-lg-2
+  .col-lg-12.justify-content-center.align-items-center
+  img#GFG.card-img-top {
+  justify-content: center;
+  display: flex;
+  margin-top: 0.75em;
+}
+
+.container.title-item.d-inline-block {
+  display: flex;
+  justify-content: center;
+}
+
+.container.title-item.d-inline-block .row .col-2 {
+  text-align: center;
+}
+
+.container.title-item.d-inline-block .row .col-2 .text-center span{
+  color: #145a32;
+  margin-bottom: 0.5em;
+}
+
+.container.title-item.d-inline-block .row.mt-2.mb-1 .col-10 hr {
+  color: #145a32;
+  background-color: #145a32;
+  justify-content: center;
+}
