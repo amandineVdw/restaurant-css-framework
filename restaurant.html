@@ -43,7 +43,7 @@
                 >Welcome</a
               >
             </li>
-            <li class="nav-item">
+            <li class="nav-item active">
               <a
                 class="nav-link"
                 href="https://amandinevdw.github.io/restaurant-css-framework/menu.html"
@@ -74,56 +74,29 @@
       </div>
     </nav>
   </header>
-  <body>
-    <!--jumbotron-->
-    <div class="jumbotron">
-      <div class="container">
-        <h1 class="display-4">Nos nouveautés!</h1>
-        <p>
-          This is a simple hero unit, a simple jumbotron-style component for
-          calling extra attention to featured content or information.
-        </p>
-        <hr class="my-4" />
-        <div class="container">
-          <div class="row justify-content-center align-item-center">
-            <div class="col-lg-6">
-              <img
-                id="jumbotron"
-                src="images/jumbotron-image1.jpg"
-                class="img-fluid"
-                alt="pizza pepperoni"
-              />
-            </div>
-            <div class="col-lg-6">
-              <img
-                id="jumbotron"
-                src="images/jumbotron-image2.jpg"
-                class="img-fluid"
-                alt="pizza frutti di mare"
-              />
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="btn">
-        <a
-          class="btn btn-success btn-lg"
-          href="https://amandinevdw.github.io/restaurant-css-framework/menu.html"
-          role="button"
-          >Consultez-le menu</a
-        >
-      </div>
-    </div>
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
-      integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
-      crossorigin="anonymous"
-    ></script>
+  <!--restaurant-->
+
+  <body>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="<!--" Bootstrap JavaScript -- />
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+
+    <script>
+      // Show caption on hover
+      let position_relative = document.querySelectorAll(".position-relative");
+
+      position_relative.forEach((item) => {
+        item.addEventListener("mouseover", (event) => {
+          const caption = item.querySelector(".position-absolute");
+          caption.classList.remove("d-none");
+        });
+        item.addEventListener("mouseleave", (event) => {
+          const caption = item.querySelector(".position-absolute");
+          caption.classList.add("d-none");
+        });
+      });
+    </script>
   </body>
 </html>
