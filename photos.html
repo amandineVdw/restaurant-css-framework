@@ -77,55 +77,74 @@
 
   <!--photo-->
 
-  <body>
-    <div
-      id="carouselExampleControls"
-      class="carousel slide m-5"
-      data-ride="carousel"
-    >
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img
-            class="d-block w-100"
-            src="images/Fichier 17.png"
-            alt="First slide"
-          />
-        </div>
-        <div class="carousel-item">
-          <img
-            class="d-block w-100"
-            src="images/Fichier 18.png"
-            alt="Second slide"
-          />
-        </div>
-        <div class="carousel-item">
-          <img
-            class="d-block w-100"
-            src="images/Fichier 18.png"
-            alt="Third slide"
-          />
-        </div>
-      </div>
-      <a
-        class="carousel-control-prev"
-        href="#carouselExampleControls"
-        role="button"
-        data-slide="prev"
-      >
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a
-        class="carousel-control-next"
-        href="#carouselExampleControls"
-        role="button"
-        data-slide="next"
-      >
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
-    </div>
+  <body class="mb-5">
+    <div class="container mt-3">
+      <div id="demo" class="carousel slide" data-ride="carousel">
+        <!-- Indicateurs -->
+        <ul class="carousel-indicators">
+          <li data-target="#demo" data-slide-to="0" class="active"></li>
+          <li data-target="#demo" data-slide-to="1"></li>
+          <li data-target="#demo" data-slide-to="2"></li>
+        </ul>
 
+        <!-- Carrousel -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="https://amandinevdw.github.io/restaurant-css-framework/images/Fichier 17.png"
+              alt="Carrousel slide 1"
+              class="d-block w-100"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h4 class="fst-italic">Pizza Dolce</h4>
+              <p class="fst-italic">Toute la tradition de l'Italie...</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://amandinevdw.github.io/restaurant-css-framework/images/Fichier 18.png"
+              alt="Carrousel slide 2"
+              class="d-block w-100"
+            />
+            <div class="carousel-caption d-none d-md-block text-dark">
+              <h4 class="fst-italic">Pizza Dolce</h4>
+              <p class="fst-italic">Toute la tradition de l'Italie...</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://amandinevdw.github.io/restaurant-css-framework/images/Fichier 19.png"
+              alt="Carrousel slide 3"
+              class="d-block w-100"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h4 class="fst-italic">Pizza Dolce</h4>
+              <p class="fst-italic">Toute la tradition de l'Italie...</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Contrôles -->
+        <a
+          class="carousel-control-prev"
+          href="#demo"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Précédent</span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#demo"
+          role="button"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Suivant</span>
+        </a>
+      </div>
+    </div>
     <div class="container">
       <h2 class="text-center my-4 text-success fw-bold fst-italic lh-sm">
         Laissez-vous tenter par nos délicieuses pizzas <br />
@@ -136,7 +155,7 @@
         <div class="col">
           <div class="position-relative gallery-item" style="cursor: pointer">
             <img
-              src="images/Fichier 7.png"
+              src="https://amandinevdw.github.io/restaurant-css-framework/images/Fichier 7.png"
               alt="gallerie image1 pizza Funghi"
               class="w-100"
             />
@@ -154,7 +173,7 @@
         <div class="col">
           <div class="position-relative gallery-item" style="cursor: pointer">
             <img
-              src="images/Fichier 6.png"
+              src="https://amandinevdw.github.io/restaurant-css-framework/images/Fichier 6.png"
               alt="gallerie image2 pizza pepperoni"
               class="w-100"
             />
@@ -172,7 +191,7 @@
         <div class="col">
           <div class="position-relative gallery-item" style="cursor: pointer">
             <img
-              src="images/Fichier 11.png"
+              src="https://amandinevdw.github.io/restaurant-css-framework/images/Fichier 11.png"
               alt="gallerie image3 pizza Margarita"
               class="w-100"
             />
@@ -190,7 +209,7 @@
         <div class="col">
           <div class="position-relative gallery-item" style="cursor: pointer">
             <img
-              src="images/Fichier 9.png"
+              src="https://amandinevdw.github.io/restaurant-css-framework/images/Fichier 9.png"
               alt="gallerie image4 pizza mozzarella tomates cerises basilic"
               class="w-100"
             />
@@ -207,7 +226,7 @@
         <div class="col">
           <div class="position-relative gallery-item" style="cursor: pointer">
             <img
-              src="images/Fichier 10.png"
+              src="https://amandinevdw.github.io/restaurant-css-framework/images/Fichier 10.png"
               alt="gallerie image5 pizza Bolognaise"
               class="w-100"
             />
@@ -224,7 +243,7 @@
         <div class="col">
           <div class="position-relative gallery-item" style="cursor: pointer">
             <img
-              src="images/Fichier 8.png"
+              src="https://amandinevdw.github.io/restaurant-css-framework/images/Fichier 8.png"
               alt="gallerie image6 pizza Verde"
               class="w-100"
             />
@@ -238,24 +257,23 @@
           </div>
         </div>
       </div>
+      <br />
+      <nav aria-label="pagination photos">
+        <ul class="pagination justify-content-center">
+          <li class="page-item disabled">
+            <span class="page-link">Previous</span>
+          </li>
+          <li class="page-item active" aria-current="page">
+            <span class="page-link">1</span>
+          </li>
+          <li class="page-item"><a class="page-link" href="#">2</a></li>
+          <li class="page-item"><a class="page-link" href="#">3</a></li>
+          <li class="page-item">
+            <a class="page-link" href="#">Next</a>
+          </li>
+        </ul>
+      </nav>
     </div>
-    <br />
-    <nav aria-label="...">
-      <ul class="pagination justify-content-center">
-        <li class="page-item disabled">
-          <span class="page-link">Previous</span>
-        </li>
-        <li class="page-item"><a class="page-link" href="#">1</a></li>
-        <li class="page-item active" aria-current="page">
-          <span class="page-link">2</span>
-        </li>
-        <li class="page-item"><a class="page-link" href="#">3</a></li>
-        <li class="page-item">
-          <a class="page-link" href="#">Next</a>
-        </li>
-      </ul>
-    </nav>
-
     <!-- Bootstrap JavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
