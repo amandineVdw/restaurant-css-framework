@@ -254,3 +254,7 @@ $color-black: #000;
   border: 1px solid #000;
   background: transparent;
 }
+
+html body div.bg-image section.py-5 div.container-fluid.p-lg-0 div.row.g-0.align-items-center div.col-lg-6 div.col-lg-8.mx-auto h2{
+  background: #145a32;
+}
