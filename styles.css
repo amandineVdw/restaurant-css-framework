@@ -264,3 +264,10 @@ $color-black: #000;
   display: d-flex;
   justify-content: center;
 }
+
+
+.container.card.mt-2 .row.py-lg-2 .list-group.list-group-flush a.list-group-item.{
+  text-justify: distribute-all-lines;
+
+}
+
