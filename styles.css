@@ -47,7 +47,7 @@ nav.container.collapse navbar-collapse ul li a {
   background: #e5e7e9;
 }
 
-.card.mt-2
+.card.mb-2
   div.row.py-lg-2
   .col-lg-12.justify-content-center.align-items-center
   img#GFG.card-img-top {
@@ -98,7 +98,7 @@ $color-black: #000;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-.main-wrapper {
+  .main-wrapper {
     border-radius: 10px;
     padding: 45px;
     width: 40%;
@@ -107,18 +107,18 @@ $color-black: #000;
     background-color: #ffffff85;
     @media screen and (max-width: 991px) {
       width: 70%;
-}
-@media screen and (max-width: 767px) {
-  width: 90%;
     }
-.form-head {
-  font-size: 30px;
-  line-height: 40px;
+    @media screen and (max-width: 767px) {
+      width: 90%;
+    }
+    .form-head {
+      font-size: 30px;
+      line-height: 40px;
       font-weight: 600;
       text-align: center;
       margin: 0px 0 25px;
     }
-.form-wrapper {
+    .form-wrapper {
       display: flex;
       align-items: center;
       justify-content: center;
@@ -177,8 +177,8 @@ $color-black: #000;
           margin: 0;
           font-size: 18px;
           line-height: 28px;
-  font-weight: 500;
-}
+          font-weight: 500;
+        }
         .form-textarea {
           padding: 20px 25px 15px;
           width: 100%;
@@ -255,8 +255,12 @@ $color-black: #000;
   background: transparent;
 }
 
+.card-text {
+  color: black;
+  text-align: center;
+}
 
 .footer-icons {
   display: d-flex;
-  justify-content: center; 
+  justify-content: center;
 }
