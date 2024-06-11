@@ -255,3 +255,8 @@ $color-black: #000;
   background: transparent;
 }
 
+
+.footer-icons {
+  display: d-flex;
+  justify-content: center; 
+}
