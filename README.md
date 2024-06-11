@@ -8,10 +8,9 @@ Le site web est responsive (pour les petits écrans et moyens) et comporter cinq
 
 ## URL du site web
 
-[l'URL de mon site web sera ajouter très prochainement 🤩]
-![alt text](image-4.png)
+Bienvenue sur le site officiel de Dolce Pizza ! Découvrez l'authenticité de nos pizzas italiennes cuites au feu de bois. Une expérience culinaire unique à chaque bouchée.
+- [Visitez notre site Dolce Pizza](https://amandinevdw.github.io/restaurant-css-framework/)
 
-## Détails des pages
 
 ### Accueil
 
