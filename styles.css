@@ -265,9 +265,18 @@ $color-black: #000;
   justify-content: center;
 }
 
-
-.container.card.mt-2 .row.py-lg-2 .list-group.list-group-flush a.list-group-item.{
+.container.card.mt-2
+  .row.py-lg-2
+  .list-group.list-group-flush
+  a.list-group-item. {
   text-justify: distribute-all-lines;
+}
 
+.same-size {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  width: 500px; /* Set a fixed width */
+  height: 300px; /* Set a fixed height */
 }
 
