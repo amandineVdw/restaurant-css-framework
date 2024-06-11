@@ -38,7 +38,7 @@ body {
   margin-top: 5em;
 }
 
-nav.container.collapse navbar-collapse ul li a {
+nav.container .collapse .navbar-collapse ul li a {
   color: #fff;
 }
 
@@ -47,14 +47,12 @@ nav.container.collapse navbar-collapse ul li a {
   background: #e5e7e9;
 }
 
-.card.mb-2
-  div.row.py-lg-2
-  .col-lg-12.justify-content-center.align-items-center
-  img#GFG.card-img-top {
+.container.card.mb-2 div.row.py-lg-2 img#GFG.card-img-top {
   justify-content: center;
   display: flex;
   margin-top: 0.75em;
 }
+
 
 .container.title-item.d-inline-block {
   display: flex;
